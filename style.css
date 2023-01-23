@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+    background-image: url("./back.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.num{
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+    font-size: 20px;
+    background: none;
+}
+
+button{
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 3px solid #ff0251;
+    color: #ff0251;
+    transition: .3s;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.button {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px;
+    font-weight: bolder;
+  }
+
+/* .button:hover {
+    animation: button 1s infinite;
+    transition: .3s;
+  }
+
+    @keyframes button {
+        0% {
+        transform: scale(1);
+        }
+        70% {
+        transform: scale(.9);
+        }
+        100% {
+        transform: scale(1);
+        }
+    }
+   */
+/* .decrease{
+    padding: 4px;
+    font-weight: bold;
+    background: none;
+}
+
+.increase{
+    padding: 4px;
+    font-weight: bold;
+    background: none;
+}
+
+.reset{
+    padding: 4px;
+    font-weight: bold;
+    background: none;
+} */
+
+.button-4 {
+    background-color: transparent;
+    border: 3px solid #ff0251;
+    color: #ff0251;
+    transition: .3s;
+  }
+  .button-4:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
